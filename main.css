@@ -1,0 +1,187 @@
+
+.title {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(45deg, #8098ff,#a580ff,#9c95ff);
+    font-family: sans-serif;
+    color: #85b6e4;
+    font-size: 180%;
+    font-weight: 1000;
+    text-align: center;    
+    padding-top: ;       
+}
+.title a {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    font-size: 150%;
+    filter: drop-shadow(2px 2px 2px #41413c);
+    font-family: ;
+}
+
+.intro {
+   position: absolute;
+   height: 30%; 
+   width: 15%;
+   
+   background-color: #8098ff;
+   border-radius: 15px 0px 0px 15px;
+   transition: left 0.5s, width 0.5s;
+   overflow-y: auto;
+   padding-left: 10px;
+}
+.intro {
+     left: 80%;
+     top: 20%;
+}
+
+.intro:hover {
+    left: 10%;
+    width: 80%;
+    border-radius: 15px;
+}
+.intro a {
+     visibility: hidden;
+     font-family: sans-serif;
+     color: #10141c;
+     font-size: 120%;
+     font-weight: 500;
+     text-align: center;
+     
+}
+.intro:hover a {
+     visibility: visible;
+}
+.text {
+   position: absolute;
+   left: 20%;
+   top: ;
+   font-size: 40px; 
+   width: 60%; 
+   height: 40%;
+   font-family: courier;
+   font-weight: 500;
+}
+
+.facilities {
+   position: absolute;
+   top: 70%;
+   left: 0%;
+   height: 30%; 
+   width: 15%;    
+   background-color: #8098ff;
+   border-radius: 0px 15px 15px 0px;   
+   overflow-y: auto;
+   transition: width 0.5s, left 0.5s;
+   padding-left: 10px;
+   z-index: 2;
+}
+.facilities a {
+     
+     font-family: sans-serif;
+     color: #10141c;
+     visibility: hidden;
+     font-size: 120%;
+     font-weight: 500;
+     text-align: center;
+     
+}
+.facilities:hover {
+    left: 10%;
+    width: 80%;
+    border-radius: 15px;
+}
+.facilities:hover a {
+     visibility: visible;
+}
+.back {
+     position: absolute;
+     left: 0%;
+     top: 0%;
+     height: 80px;
+     width: 80px;
+     background-color: transparent;     
+}
+.stick {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   background-color: white;
+   height: 5px;
+   width: 70px;
+   border-radius: 4px;   
+   transform: translate(-50%, -50%);
+}
+.stick:nth-child(2) {
+     left: 10%;
+     height: 5px;
+     width: 30px;
+     transform: translate(-50%, -50%) translateX(13px) translateY(10px) rotate(45deg);
+}
+.stick:nth-child(3) {
+     left: 10%;
+     height: 5px;
+     width: 30px;
+     transform: translate(-50%, -50%) translateX(13px) translateY(-10px) rotate(-45deg);
+}
+form {
+     position: absolute;
+     top: 20%;
+}
+label {
+     font-family: serif;
+     font-weight: 500;
+     font-size: 120%;
+}
+input[type="text"], input[type="password"] {
+     height: 25px;
+     width: 250px;
+     border: 2px solid #008ca7;
+     caret-color: #008ca7;
+}
+.line {
+    position: absolute;
+    height: 7px;
+    width: 40px;
+    left: 5px;
+    border-radius: 3px;
+    background-color: white;
+}
+.line {
+    top: 7px;
+}
+.line:nth-child(2) {
+    top: 21px;
+}
+.line:nth-child(3) {
+    top: 35px;
+}
+.burger {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0%;
+    left: 5%;
+}
+.menu {
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    display: flex; 
+    justify-content: space-between;      
+    border-radius: 15px;
+    visibility: hidden;
+    transition: height 0.5s, width 0.5s;
+    background: linear-gradient(45deg, #8098ff,#a580ff,#9c95ff);
+    z-index: 3;
+    top: 15.5%;
+    left: 5%;
+}
+.menu a {
+    font-weight: 500;
+    font-size: 30px;
+}
